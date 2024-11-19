@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: rgb(34, 34, 34);
 }
 
 body {
@@ -40,3 +41,47 @@ a {
     color-scheme: dark;
   }
 }
+
+h1 {
+  color: rgb(0,230,150);
+  border: solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(65, 65, 65);
+  border-color: rgb(65, 65, 65);
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  font-size: 80px;
+}
+
+.input {
+  padding: 20px;
+  color: rgb(0,230,150);
+  background-color: rgb(65, 65, 65);
+  text-align: center;
+  border: solid;
+}
+
+.add {
+
+}
+
+ul {
+  text-align: center;
+  color: rgb(0,230,150);
+  background-color: rgb(65, 65, 65);
+}
+
+.delete {
+  padding-bottom: 20px;
+}
+
+button {
+  padding: 3px;
+  outline-offset: 5px;
+  background-color: rgb(65, 65, 65);
+  border-color: rgb(65, 65, 65);
+  color: rgb(0,230,150);
+  border: solid;
+}
+
